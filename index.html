@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- CSS 
+    ================================================== -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <form action="">
     <div id="center">
-      <h1>PONTE EN CONTACTO</h1>
+      <div id="letras">
+        <p>PONTE EN CONTACTO</p>
+      </div>
       <p>
-        <input name="nombre" type="text" placeholder="Nombre" />
-        <input name="Apellidos" type="text" placeholder="Apellidos" />
+        <input id="nombre" type="text" placeholder="Nombre" />
+        <input id="apellidos" type="text" placeholder="Apellidos" />
       </p>
       <p>
-        <input name="email" type="text" placeholder="Email" />
-        <input name="telefono type="text" placeholder="Telefono" />
+        <input id="email" type="text" placeholder="Email" />
+        <input id="telefono" type="text" placeholder="Telefono" />
       </p>
       <p>
-        <input name="direccion" type="text" placeholder="Direccion" size="46" />
+        <input id="direccion" type="text" placeholder="Direccion" size="45" />
       </p>
       <textarea
-        name="escribir"
+        id="escribir"
         type="text"
         placeholder="Escribe tu mensaje aqui"
-        rows="5s"
-        cols="48"
+        rows="5"
+        cols="45s"
       ></textarea>
-      <p><input name="boton" type="button" value="Enviar" /></p>
+      <p><input id="boton" type="button" value="Enviar" /></p>
     </div>
   </form>
-  <head>
-    <style>
-      #center {
-        text-align: center;
-      }
-    </style>
-    <style type="text/css">
-      textarea {
-        resize: none;
-      }
-    </style>
-  </head>
   <body></body>
 </html>

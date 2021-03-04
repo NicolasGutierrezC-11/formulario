@@ -1,0 +1,43 @@
+/* INFORMACION */
+#letras {
+  color: indigo;
+  width: 920px;
+  font-size: 30px;
+}
+#nombre {
+  font-size: 30px;
+  border-radius: 10px;
+}
+#apellidos {
+  font-size: 30px;
+  border-radius: 10px;
+}
+#email {
+  font-size: 30px;
+  border-radius: 10px;
+}
+#telefono {
+  font-size: 30px;
+  border-radius: 10px;
+}
+#direccion {
+  font-size: 30px;
+  border-radius: 10px;
+}
+#escribir {
+  font-size: 30px;
+  border-radius: 10px;
+}
+/* BOTON DE ENVIAR */
+#boton {
+  font-size: 30px;
+  border-radius: 60px;
+}
+/* ESCRIBE TU MENSAJE AQUIA */
+textarea {
+  resize: none;
+}
+/* CENTRAMOS EL FORMULARIO */
+#center {
+  text-align: center;
+}
